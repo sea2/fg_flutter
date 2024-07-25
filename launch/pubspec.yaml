@@ -1,0 +1,27 @@
+name: launch
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  app:
+    path: ../app
+  showcase:
+    path: ../showcase
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../tg_lint_rules
+
+flutter:
+  fonts:
+    - family: TgIcons
+      fonts:
+        - asset: ../tg_ui_kit/assets/tg_icons.ttf
+  uses-material-design: true

@@ -1,0 +1,36 @@
+name: feature_chat_header_info_impl
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ^3.0.0
+
+dependencies:
+  core:
+    path: ../../core
+  core_presentation:
+    path: ../../core_presentation
+  core_tdlib_api:
+    path: ../../core_tdlib_api
+  core_utils:
+    path: ../../core_utils
+  coreui:
+    path: ../../coreui
+  feature_chat_header_info_api:
+    path: ../feature_chat_header_info_api
+  feature_file_api:
+    path: ../feature_file_api
+  flutter:
+    sdk: flutter
+  localization_api:
+    path: ../../localization_api
+  rxdart: 0.27.3
+  shared_models:
+    path: ../../shared/models
+  td_api:
+    path: ../../td/td_api
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../../tg_lint_rules

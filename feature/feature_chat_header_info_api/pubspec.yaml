@@ -1,0 +1,19 @@
+name: feature_chat_header_info_api
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ^3.0.0
+
+dependencies:
+  core_presentation:
+    path: ../../core_presentation
+  flutter:
+    sdk: flutter
+  shared_models:
+    path: ../../shared/models
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../../tg_lint_rules

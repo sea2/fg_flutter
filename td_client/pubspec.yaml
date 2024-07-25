@@ -1,0 +1,15 @@
+name: td_client
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  rxdart: 0.27.3
+  tdlib:
+    path: ../tdlib-dart
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../tg_lint_rules

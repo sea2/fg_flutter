@@ -1,0 +1,110 @@
+name: showcase
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ^3.0.0
+
+dependencies:
+  block_interaction_api:
+    path: ../block_interaction_api
+  chat_kit:
+    path: ../feature/chat/chat_kit
+  chat_theme:
+    path: ../feature/chat/chat_theme
+  core_arch:
+    path: ../core_arch
+  core_arch_flutter:
+    path: ../core_arch_flutter
+  core_presentation:
+    path: ../core_presentation
+  core_tdlib_api:
+    path: ../core_tdlib_api
+  core_utils:
+    path: ../core_utils
+  coreui:
+    path: ../coreui
+  dialog_api:
+    path: ../dialog_api
+  dialog_api_flutter:
+    path: ../dialog_api_flutter
+  emoji_ui_kit:
+    path: ../ui/emoji_ui_kit
+  fake:
+    path: ../fake
+  feature_auth_impl:
+    path: ../feature/feature_auth_impl
+  feature_change_username_impl:
+    path: ../feature/user/feature_change_username_impl
+  feature_chat_forum_impl:
+    path: ../feature/chat/forum/feature_chat_forum_impl
+  feature_chat_header_info_api:
+    path: ../feature/feature_chat_header_info_api
+  feature_chat_impl:
+    path: ../feature/chat/feature_chat_impl
+  feature_chats_list_impl:
+    path: ../feature/feature_chats_list_impl
+  feature_country_api:
+    path: ../feature/feature_country_api
+  feature_country_impl:
+    path: ../feature/feature_country_impl
+  feature_create_new_chat_impl:
+    path: ../feature/feature_create_new_chat_impl
+  feature_file_api:
+    path: ../feature/feature_file_api
+  feature_logout_impl:
+    path: ../feature/feature_logout_impl
+  feature_main_screen_impl:
+    path: ../feature/feature_main_screen_impl
+  feature_message_preview_resolver:
+    path: ../feature/feature_message_preview_resolver
+  feature_message_preview_resolver_impl:
+    path: ../feature/feature_message_preview_resolver_impl
+  feature_new_contact_impl:
+    path: ../feature/contact/new_contact/feature_new_contact_impl
+  feature_settings_impl:
+    path: ../feature/feature_settings_impl
+  flutter:
+    sdk: flutter
+  freezed_annotation: 2.2.0
+  intl: 0.17.0
+  jugger: 3.0.0
+  localization_api:
+    path: ../localization_api
+  localization_impl:
+    path: ../localization_impl
+  rxdart: 0.27.3
+  scope_generator_annotation:
+    path: ../scope_generator/scope_generator_annotation
+  shared_models:
+    path: ../shared/models
+  split_view:
+    path: ../split_view
+  td_api:
+    path: ../td/td_api
+  tg_logger_api:
+    path: ../tg_logger_api
+  tg_logger_impl:
+    path: ../tg_logger_impl
+  tg_theme:
+    path: ../feature/theme/tg_theme
+  tg_ui_kit:
+    path: ../tg_ui_kit
+  theme_manager_flutter:
+    path: ../feature/theme/theme_manager_flutter
+  tile:
+    path: ../tile
+
+dev_dependencies:
+  build_runner: 2.3.3
+  dependency_validator: 3.2.0
+  freezed: 2.2.1
+  jugger_generator: 3.1.1
+  scope_generator:
+    path: ../scope_generator/generator
+  tg_lint_rules:
+    path: ../tg_lint_rules
+
+flutter:
+  assets:
+    - assets/durov.jpg

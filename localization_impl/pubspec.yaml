@@ -1,0 +1,23 @@
+name: localization_impl
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  localization_api:
+    path: ../localization_api
+  sprintf: 6.0.0
+  xml: 5.1.1
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../tg_lint_rules
+
+flutter:
+  assets:
+    - assets/translations/en.xml

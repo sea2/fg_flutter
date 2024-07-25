@@ -1,0 +1,3 @@
+class ChatSettingsState {
+  const ChatSettingsState();
+}

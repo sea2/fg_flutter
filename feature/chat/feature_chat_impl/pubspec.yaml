@@ -1,0 +1,101 @@
+name: feature_chat_impl
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ^3.0.0
+
+dependencies:
+  async: 2.11.0
+  async_utils:
+    path: ../../../async_utils
+  badges: 2.0.2
+  chat_actions_panel:
+    path: ../chat_actions_panel
+  chat_info:
+    path: ../chat_info
+  chat_kit:
+    path: ../chat_kit
+  chat_manager_api:
+    path: ../../chat/chat_manager/chat_manager_api
+  chat_navigation_api:
+    path: ../chat_navigation_api
+  chat_theme:
+    path: ../chat_theme
+  collection: 1.18.0
+  core:
+    path: ../../../core
+  core_arch:
+    path: ../../../core_arch
+  core_arch_flutter:
+    path: ../../../core_arch_flutter
+  core_presentation:
+    path: ../../../core_presentation
+  core_tdlib_api:
+    path: ../../../core_tdlib_api
+  core_utils:
+    path: ../../../core_utils
+  coreui:
+    path: ../../../coreui
+  dialog_api:
+    path: ../../../dialog_api
+  dmg_annotation:
+    path: ../../../dependencies_module_generator/dmg_annotation
+  emoji_ui_kit:
+    path: ../../../ui/emoji_ui_kit
+  error_transformer_api:
+    path: ../../../error_transformer_api
+  feature_chat_api:
+    path: ../feature_chat_api
+  feature_chat_header_info_api:
+    path: ../../feature_chat_header_info_api
+  feature_file_api:
+    path: ../../feature_file_api
+  feature_message_preview_resolver:
+    path: ../../feature_message_preview_resolver
+  flutter:
+    sdk: flutter
+  freezed_annotation: 2.2.0
+  intl: 0.17.0
+  jugger: 3.0.0
+  localization_api:
+    path: ../../../localization_api
+  lottie_utils:
+    path: ../../../lottie_utils
+  profile_navigation_api:
+    path: ../../profile/profile_navigation_api
+  queue:
+    path: ../../../queue
+  rich_text_format:
+    path: ../../../rich_text/rich_text_format
+  rich_text_format_flutter:
+    path: ../../../rich_text/rich_text_format_flutter
+  rxdart: 0.27.3
+  scope_generator_annotation:
+    path: ../../../scope_generator/scope_generator_annotation
+  shared_models:
+    path: ../../../shared/models
+  sticker_navigation_api:
+    path: ../../sticker/sticker_navigation_api
+  td_api:
+    path: ../../../td/td_api
+  td_rich_text_parser:
+    path: ../../../rich_text/td_rich_text_parser
+  tg_theme:
+    path: ../../theme/tg_theme
+  tile:
+    path: ../../../tile
+
+dev_dependencies:
+  build_runner: 2.3.3
+  dependencies_module_generator:
+    path: ../../../dependencies_module_generator/generator
+  dependency_validator: 3.2.0
+  freezed: 2.2.1
+  jugger_generator: 3.1.1
+  mockito: 5.4.0
+  scope_generator:
+    path: ../../../scope_generator/generator
+  test: 1.24.0
+  tg_lint_rules:
+    path: ../../../tg_lint_rules

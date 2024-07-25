@@ -1,0 +1,20 @@
+name: feature_message_preview_resolver_impl
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  core_tdlib_api:
+    path: ../../core_tdlib_api
+  feature_message_preview_resolver:
+    path: ../feature_message_preview_resolver
+  localization_api:
+    path: ../../localization_api
+  td_api:
+    path: ../../td/td_api
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../../tg_lint_rules

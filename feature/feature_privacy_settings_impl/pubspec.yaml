@@ -1,0 +1,24 @@
+name: feature_privacy_settings_impl
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ^3.0.0
+
+dependencies:
+  core_tdlib_api:
+    path: ../../core_tdlib_api
+  coreui:
+    path: ../../coreui
+  feature_privacy_settings_api:
+    path: ../feature_privacy_settings_api
+  flutter:
+    sdk: flutter
+  localization_api:
+    path: ../../localization_api
+  provider: 6.0.2
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../../tg_lint_rules

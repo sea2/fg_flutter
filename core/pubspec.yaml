@@ -1,0 +1,21 @@
+name: core
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ^3.0.0
+
+dependencies:
+  connectivity_plus: 2.2.1
+  core_tdlib_api:
+    path: ../core_tdlib_api
+  flutter:
+    sdk: flutter
+  rxdart: 0.27.3
+  td_api:
+    path: ../td/td_api
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../tg_lint_rules

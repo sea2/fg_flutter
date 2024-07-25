@@ -1,0 +1,55 @@
+name: fake
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ^3.0.0
+
+dependencies:
+  auth_manager_api:
+    path: ../component/auth_manager/auth_manager_api
+  chat_kit:
+    path: ../feature/chat/chat_kit
+  chat_manager_api:
+    path: ../feature/chat/chat_manager/chat_manager_api
+  contacts_manager_api:
+    path: ../feature/contact/contacts_manager/contacts_manager_api
+  core:
+    path: ../core
+  core_tdlib_api:
+    path: ../core_tdlib_api
+  error_transformer_api:
+    path: ../error_transformer_api
+  feature_chats_list_api:
+    path: ../feature/feature_chats_list_api
+  feature_file_api:
+    path: ../feature/feature_file_api
+  feature_global_search_api:
+    path: ../feature/feature_global_search_api
+  feature_message_preview_resolver:
+    path: ../feature/feature_message_preview_resolver
+  feature_settings_search_api:
+    path: ../feature/feature_settings_search_api
+  flutter:
+    sdk: flutter
+  localization_api:
+    path: ../localization_api
+  localization_impl:
+    path: ../localization_impl
+  rxdart: 0.27.3
+  td_api:
+    path: ../td/td_api
+  username_generator: ^1.3.0
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../tg_lint_rules
+
+flutter:
+  assets:
+    - assets/messages/
+    - assets/users/
+    - assets/sticker/emoji/
+    - assets/file/sticker/thumbnail/
+    - assets/file/background/

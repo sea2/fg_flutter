@@ -1,0 +1,12 @@
+name: tg_lint_rules
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+#  dart_code_metrics: 4.2.1
+  flutter_lints: 1.0.4
+
+dev_dependencies:
+  dependency_validator: 3.2.0

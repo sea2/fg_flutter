@@ -1,0 +1,19 @@
+name: core_utils
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: 0.17.0
+  shared_models:
+    path: ../shared/models
+  td_api:
+    path: ../td/td_api
+
+dev_dependencies:
+  dependency_validator: 3.2.0
+  tg_lint_rules:
+    path: ../tg_lint_rules

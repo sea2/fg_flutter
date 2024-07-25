@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--https://translations.telegram.org/en/android/general/TelegramFeatures-->
+    <string lang="TelegramFeatures">Telegram Features</string>
+    <!--https://translations.telegram.org/en/android/settings/PrivacySettings-->
+    <string lang="PrivacySettings">Privacy and Security</string>
+    <!--https://translations.telegram.org/en/android/settings/NotificationsAndSounds-->
+    <string lang="NotificationsAndSounds">Notifications and Sounds</string>
+    <!--https://translations.telegram.org/en/android/settings/DataSettings-->
+    <string lang="DataSettings">Data and Storage</string>
+    <!--https://translations.telegram.org/en/android/settings/ChatSettings-->
+    <string lang="ChatSettings">Chat Settings</string>
+    <!--https://translations.telegram.org/en/android/settings/ChatBackground-->
+    <string lang="ChatBackground">Chat Background</string>
+    <!--https://translations.telegram.org/en/android/groups_and_channels/Settings-->
+    <string lang="Settings">Settings</string>
+    <!--https://translations.telegram.org/en/android/settings/SettingsHelp-->
+    <string lang="SettingsHelp">Help</string>
+    <!--https://translations.telegram.org/en/android/settings/AskAQuestion-->
+    <string lang="AskAQuestion">Ask a Question</string>
+    <!--https://translations.telegram.org/en/android/settings/TelegramFAQ-->
+    <string lang="TelegramFAQ">Telegram FAQ</string>
+    <!--https://translations.telegram.org/en/android/settings/PrivacyPolicy-->
+    <string lang="PrivacyPolicy">Privacy Policy</string>
+    <!--https://translations.telegram.org/en/android/settings/SetProfilePhoto-->
+    <string lang="SetProfilePhoto">Set Profile Photo</string>
+    <!--https://translations.telegram.org/en/android/settings/Account-->
+    <string lang="Account">Account</string>
+    <!--https://translations.telegram.org/en/android/settings/TapToChangePhone-->
+    <string lang="TapToChangePhone">Tap to change phone number</string>
+    <!--https://translations.telegram.org/en/android/profile/Username-->
+    <string lang="Username">Username</string>
+    <!--https://translations.telegram.org/en/android/settings/UserBio-->
+    <string lang="UserBio">Bio</string>
+    <!-- https://translations.telegram.org/en/android/settings/UserBioDetail -->
+    <string lang="UserBioDetail">Add a few words about yourself</string>
+    <!-- https://translations.telegram.org/en/android/settings/StickersAndMasks -->
+    <string lang="StickersAndMasks">Stickers and Masks</string>
+    <!-- https://translations.telegram.org/en/android/settings/SuggestStickers -->
+    <string lang="SuggestStickers">Suggest stickers by emoji</string>
+    <!-- https://translations.telegram.org/en/android/settings/LoopAnimatedStickers -->
+    <string lang="LoopAnimatedStickers">Loop Animated Stickers</string>
+    <!-- https://translations.telegram.org/en/android/unsorted/LoopAnimatedStickersInfo -->
+    <string lang="LoopAnimatedStickersInfo">Animated stickers will play continuously in chats.</string>
+    <!-- https://translations.telegram.org/en/android/settings/FeaturedStickers -->
+    <string lang="FeaturedStickers">Trending Stickers</string>
+    <!-- https://translations.telegram.org/en/android/settings/Masks -->
+    <string lang="Masks">Masks</string>
+    <!-- https://translations.telegram.org/en/android/settings/StickersBotInfo -->
+    <string lang="StickersBotInfo">Artists are welcome to add their own sticker sets using our @stickers bot.</string>
+    <!-- https://translations.telegram.org/en/android/settings/SuggestStickersAll -->
+    <string lang="SuggestStickersAll">All Sets</string>
+    <!-- https://translations.telegram.org/en/android/settings/SuggestStickersInstalled -->
+    <string lang="SuggestStickersInstalled">My Sets</string>
+    <!-- https://translations.telegram.org/en/android/settings/SuggestStickersNone -->
+    <string lang="SuggestStickersNone">None</string>
+    <!-- https://translations.telegram.org/en/android/settings/ArchivedStickers -->
+    <string lang="ArchivedStickers">Archived Stickers</string>
+    <!-- https://translations.telegram.org/en/android/settings/AutoNightTheme -->
+    <string lang="AutoNightTheme">Auto-Night Mode</string>
+    <!-- https://translations.telegram.org/en/android/settings/ChromeCustomTabs -->
+    <string lang="ChromeCustomTabs">In-App Browser</string>
+    <!-- https://translations.telegram.org/en/android/settings/DirectShare -->
+    <string lang="DirectShare">Direct Share</string>
+    <!-- https://translations.telegram.org/en/android/settings/ChromeCustomTabsInfo -->
+    <string lang="ChromeCustomTabsInfo">Open external links within the app</string>
+    <!-- https://translations.telegram.org/en/android/settings/DirectShareInfo -->
+    <string lang="DirectShareInfo">Show recent chats in Android share menu</string>
+    <!-- https://translations.telegram.org/en/android/settings/EnableAnimations -->
+    <string lang="EnableAnimations">Enable Animations</string>
+    <!-- https://translations.telegram.org/en/android/settings/LargeEmoji -->
+    <string lang="LargeEmoji">Large Emoji</string>
+    <!-- https://translations.telegram.org/en/android/settings/RaiseToSpeak -->
+    <string lang="RaiseToSpeak">Raise to Speak</string>
+    <!-- https://translations.telegram.org/en/android/settings/SendByEnter -->
+    <string lang="SendByEnter">Send by Enter</string>
+    <!-- https://translations.telegram.org/en/android/settings/SaveToGallerySettings -->
+    <string lang="SaveToGallerySettings">Save to Gallery</string>
+    <!-- https://translations.telegram.org/en/android/settings/DistanceUnits -->
+    <string lang="DistanceUnits">Distance Units</string>
+    <!-- https://translations.telegram.org/en/android/settings/DistanceUnitsAutomatic -->
+    <string lang="DistanceUnitsAutomatic">Automatic</string>
+    <!-- https://translations.telegram.org/en/android/settings/ChangeChatBackground -->
+    <string lang="ChangeChatBackground">Change Chat Background</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ActionCreateGroup -->
+    <string lang="ActionCreateGroup">%s created the group</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/CallMessageIncomingMissed -->
+    <string lang="CallMessageIncomingMissed">Missed Call</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/CallMessageIncomingDeclined -->
+    <string lang="CallMessageIncomingDeclined">Declined Call</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/CallMessageIncoming -->
+    <string lang="CallMessageIncoming">Incoming Call</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/CallMessageOutgoing -->
+    <string lang="CallMessageOutgoing">Outgoing Call</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/CallMessageOutgoingMissed -->
+    <string lang="CallMessageOutgoingMissed">Cancelled Call</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/EventLogGroupJoined -->
+    <string lang="EventLogGroupJoined">%s joined the group</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ActionChangedPhoto -->
+    <string lang="ActionChangedPhoto">%s changed the group photo</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ActionMigrateFromGroupNotify -->
+    <string lang="ActionMigrateFromGroupNotify">%s was upgraded to a supergroup</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/ActionChangedTitle -->
+    <string lang="ActionChangedTitle">%s changed the group name to %s</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ActionKickUser -->
+    <string lang="ActionKickUser">%s removed %s</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/ActionRemovedPhoto -->
+    <string lang="ActionRemovedPhoto">%s removed the group photo</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ActionInviteUser -->
+    <string lang="ActionInviteUser">%s joined the group via invite link</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/MessageLifetimeChanged -->
+    <string lang="MessageLifetimeChanged">%s set the self-destruct timer to %s</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/MessageLifetimeChangedOutgoing -->
+    <string lang="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %s</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/ActionMigrateFromGroup -->
+    <string lang="ActionMigrateFromGroup">This group was upgraded to a supergroup</string>
+    <!-- https://translations.telegram.org/en/android/settings/ContactJoined -->
+    <string lang="ContactJoined">Contact joined Telegram</string>
+    <!-- https://translations.telegram.org/en/android/general/ViewContact -->
+    <string lang="ViewContact">VIEW CONTACT</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/EditedMessage -->
+    <string lang="EditedMessage">edited</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/HiddenName -->
+    <string lang="HiddenName">Deleted Account</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/ALongTimeAgo -->
+    <string lang="ALongTimeAgo">last seen a long time ago</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/Bot -->
+    <string lang="Bot">bot</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/Online -->
+    <string lang="Online">online</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/OnlineCount -->
+    <string lang="OnlineCount">%s online</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/Lately -->
+    <string lang="Lately">last seen recently</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/WithinAWeek -->
+    <string lang="WithinAWeek">last seen within a week</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/WithinAMonth -->
+    <string lang="WithinAMonth">last seen within a month</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/Members -->
+    <string lang="Members">%s member(s)</string>
+    <!-- https://translations.telegram.org/en/android/settings/Info -->
+    <string lang="Info">Info</string>
+    <!-- https://translations.telegram.org/en/android/profile/Notifications -->
+    <string lang="Notifications">Notifications</string>
+    <!-- https://translations.telegram.org/en/android/settings/NotificationsOff -->
+    <string lang="NotificationsOff">Off</string>
+    <!-- https://translations.telegram.org/en/android/settings/NotificationsOn -->
+    <string lang="NotificationsOn">On</string>
+    <!-- https://translations.telegram.org/en/android/profile/SharedLinks -->
+    <string lang="SharedLinks">Links</string>
+    <!-- https://translations.telegram.org/en/android/profile/NotificationsTurnOn -->
+    <string lang="NotificationsTurnOn">Turn On</string>
+    <!-- https://translations.telegram.org/en/android/profile/NotificationsTurnOff -->
+    <string lang="NotificationsTurnOff">Turn Off</string>
+    <!-- https://translations.telegram.org/en/android/profile/NotificationsCustomize -->
+    <string lang="NotificationsCustomize">Customize</string>
+    <!-- https://translations.telegram.org/en/android/login/SentAppCodeTitle -->
+    <string lang="SentAppCodeTitle">Check your Telegram messages</string>
+    <!-- https://translations.telegram.org/en/android/login/SentAppCode -->
+    <string lang="SentAppCode">We've sent the code to the **Telegram** app on your other device.</string>
+    <!-- https://translations.telegram.org/en/android/login/DidNotGetTheCodeSms -->
+    <string lang="DidNotGetTheCodeSms">Send the code as an SMS</string>
+    <!-- https://translations.telegram.org/en/android/login/ChooseCountry -->
+    <string lang="ChooseCountry">Choose a country</string>
+    <!-- https://translations.telegram.org/en/android/login/YourPhone -->
+    <string lang="YourPhone">Your Phone</string>
+    <!-- https://translations.telegram.org/en/android/login/StopVerification -->
+    <string lang="StopVerification">Do you want to stop the verification process?</string>
+    <!-- https://translations.telegram.org/en/android/login/AppName -->
+    <string lang="AppName">Telegram</string>
+    <!-- https://translations.telegram.org/en/android/login/Stop -->
+    <string lang="Stop">Stop</string>
+    <!-- https://translations.telegram.org/en/android/login/Continue -->
+    <string lang="Continue">Continue</string>
+    <!-- https://translations.telegram.org/en/android/login/WrongCountry -->
+    <string lang="WrongCountry">Invalid country code</string>
+    <!-- https://translations.telegram.org/en/android/login/OK -->
+    <string lang="OK">OK</string>
+    <!-- https://translations.telegram.org/en/android/login/StartText -->
+    <string lang="StartText">Please confirm your country code and enter your phone number.</string>
+    <!-- https://translations.telegram.org/en/android/settings/LogOutTitle -->
+    <string lang="LogOutTitle">Log Out</string>
+    <!-- https://translations.telegram.org/en/android/settings/AlternativeOptions -->
+    <string lang="AlternativeOptions">Alternative options</string>
+    <!-- https://translations.telegram.org/en/android/settings/AddAnotherAccount -->
+    <string lang="AddAnotherAccount">Add another account</string>
+    <!-- https://translations.telegram.org/en/android/settings/AddAnotherAccountInfo -->
+    <string lang="AddAnotherAccountInfo">Connect other Telegram accounts and easily switch between them.</string>
+    <!-- https://translations.telegram.org/en/android/settings/SetPasscode -->
+    <string lang="SetPasscode">SetPasscode</string>
+    <!-- https://translations.telegram.org/en/android/settings/SetPasscodeInfo -->
+    <string lang="SetPasscodeInfo">Lock the app with a passcode so that others can't open it.</string>
+    <!-- https://translations.telegram.org/en/android/settings/ClearCache -->
+    <string lang="ClearCache">Clear Cache</string>
+    <!-- https://translations.telegram.org/en/android/settings/ClearCacheInfo -->
+    <string lang="ClearCacheInfo">Free up disk space on your device; your media will stay in the cloud.</string>
+    <!-- https://translations.telegram.org/en/android/settings/ChangePhoneNumber -->
+    <string lang="ChangePhoneNumber">Change Phone Number</string>
+    <!-- https://translations.telegram.org/en/android/settings/ChangePhoneNumberInfo -->
+    <string lang="ChangePhoneNumberInfo">Move your account, chats and media to a new number.</string>
+    <!-- https://translations.telegram.org/en/android/settings/ContactSupport -->
+    <string lang="ContactSupport">Contact Support</string>
+    <!-- https://translations.telegram.org/en/android/settings/ContactSupportInfo -->
+    <string lang="ContactSupportInfo">Tell us about any issues; logging out doesn't usually help.</string>
+    <!-- https://translations.telegram.org/en/android/settings/LogOutInfo -->
+    <string lang="LogOutInfo">Logging out deactivates all Secret Chats.</string>
+    <!-- https://translations.telegram.org/en/android/settings/AskAQuestionInfo -->
+    <string lang="AskAQuestionInfo">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.
+
+        Please take a look at the <![CDATA[<a href="https://telegram.org/faq#general-questions">Telegram FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href="https://telegram.org/faq#troubleshooting">troubleshooting</a>]]>.</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/Cancel -->
+    <string lang="Cancel">Cancel</string>
+    <!-- https://translations.telegram.org/en/android/settings/AskButton -->
+    <string lang="AskButton">Ask a volunteer</string>
+    <!-- https://translations.telegram.org/en/android/settings/AreYouSureLogout -->
+    <string lang="AreYouSureLogout">Are you sure you want to log out?
+
+        Note that you can seamlessly use Telegram on all your devices at once.
+
+        Remember, logging out kills all your Secret Chats.</string>
+    <!-- https://translations.telegram.org/en/android/settings/SelectFromGallery -->
+    <string lang="SelectFromGallery">Select from Gallery</string>
+    <!-- https://translations.telegram.org/en/android/settings/SetColor -->
+    <string lang="SetColor">Set a color</string>
+    <!-- https://translations.telegram.org/en/android/settings/ResetChatBackgrounds -->
+    <string lang="ResetChatBackgrounds">Reset Chat Backgrounds</string>
+    <!-- https://translations.telegram.org/en/android/settings/ResetChatBackgroundsInfo -->
+    <string lang="ResetChatBackgroundsInfo">Remove all uploaded chat backgrounds and restore the pre-installed ones.</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/LeaveMegaMenu -->
+    <string lang="LeaveMegaMenu">Leave group</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/LeaveChannelMenu -->
+    <string lang="LeaveChannelMenu">Leave channel</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/MegaLeaveAlertWithName -->
+    <string lang="MegaLeaveAlertWithName">Are you sure you want to leave %s?</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/ChannelLeaveAlertWithName -->
+    <string lang="ChannelLeaveAlertWithName">Are you sure you want to leave %s?</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/Filters -->
+    <string lang="Filters">Folders</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/CreateNewFilter -->
+    <string lang="CreateNewFilter">Create New Folder</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/FilterNew -->
+    <string lang="FilterNew">New Folder</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ChannelUnmute -->
+    <string lang="ChannelUnmute">UNMUTE</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ChannelMute -->
+    <string lang="ChannelMute">MUTE</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ChannelJoin -->
+    <string lang="ChannelJoin">JOIN</string>
+    <!-- https://translations.telegram.org/en/android/settings/Devices -->
+    <string lang="Devices">Devices</string>
+    <!-- https://translations.telegram.org/en/android/settings/CurrentSession -->
+    <string lang="CurrentSession">This device</string>
+    <!-- https://translations.telegram.org/en/android/settings/TerminateAllSessions -->
+    <string lang="TerminateAllSessions">Terminate All Other Sessions</string>
+    <!-- https://translations.telegram.org/en/android/settings/ClearOtherSessionsHelp -->
+    <string lang="ClearOtherSessionsHelp">Logs out all devices except for this one.</string>
+    <!-- https://translations.telegram.org/en/android/login/AuthAnotherClient -->
+    <string lang="AuthAnotherClient">Scan QR Code</string>
+    <!-- https://translations.telegram.org/en/android/settings/OtherSessions -->
+    <string lang="OtherSessions">Active sessions</string>
+    <!-- https://translations.telegram.org/en/android/settings/TerminateSessionInfo -->
+    <string lang="TerminateSessionInfo">Tap on a session to terminate.</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/NewGroup -->
+    <string lang="NewGroup">New Group</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/NewSecretChat -->
+    <string lang="NewSecretChat">New Secret Chat</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/NewChannel -->
+    <string lang="NewChannel">New Channel</string>
+    <!-- https://translations.telegram.org/en/android/unsorted/FilterDeleteAlert -->
+    <string lang="FilterDeleteAlert">Are you sure you want to remove this folder? Your chats will not be deleted.</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/FilterDelete -->
+    <string lang="FilterDelete">Remove Folder</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/Delete -->
+    <string lang="Delete">Delete</string>
+    <!-- https://translations.telegram.org/en/android/profile/EditName -->
+    <string lang="EditName">Edit name</string>
+    <!-- https://translations.telegram.org/en/android/settings/NotificationsPrivateChats -->
+    <string lang="NotificationsPrivateChats">Private Chats</string>
+    <!-- https://translations.telegram.org/en/android/settings/NotificationsGroups -->
+    <string lang="NotificationsGroups">Groups</string>
+    <!-- https://translations.telegram.org/en/android/settings/NotificationsChannels -->
+    <string lang="NotificationsChannels">Channels</string>
+    <!-- https://translations.telegram.org/en/search?lang_pack=android&query=VoipNotificationSettings -->
+    <string lang="VoipNotificationSettings">Calls</string>
+    <!-- https://translations.telegram.org/en/android/settings/BadgeNumber -->
+    <string lang="BadgeNumber">Badge Counter</string>
+    <!-- https://translations.telegram.org/en/android/settings/InAppNotifications -->
+    <string lang="InAppNotifications">In-app notifications</string>
+    <!-- https://translations.telegram.org/en/android/settings/PinnedMessages -->
+    <string lang="PinnedMessages">Pinned Messages</string>
+    <!-- https://translations.telegram.org/en/android/settings/ResetAllNotifications -->
+    <string lang="ResetAllNotifications">Reset All Notifications</string>
+    <!-- https://translations.telegram.org/en/android/settings/BlockedUsers -->
+    <string lang="BlockedUsers">Blocked Users</string>
+    <!-- https://translations.telegram.org/en/android/settings/PrivacyPhone -->
+    <string lang="PrivacyPhone">Phone Number</string>
+    <!-- https://translations.telegram.org/en/android/settings/PrivacyLastSeen -->
+    <string lang="PrivacyLastSeen">Last Seen &amp; Online</string>
+    <!-- https://translations.telegram.org/en/android/settings/PrivacyProfilePhoto -->
+    <string lang="PrivacyProfilePhoto">Profile Photos</string>
+    <!-- https://translations.telegram.org/en/android/settings/PrivacyForwards -->
+    <string lang="PrivacyForwards">Forwarded Messages</string>
+    <!-- https://translations.telegram.org/en/android/settings/PrivacyP2P -->
+    <string lang="PrivacyP2P">Peer-to-Peer in Calls</string>
+    <!-- https://translations.telegram.org/en/android/settings/GroupsAndChannels -->
+    <string lang="GroupsAndChannels">Groups</string>
+    <!-- https://translations.telegram.org/en/android/settings/Passcode -->
+    <string lang="Passcode">Passcode Lock</string>
+    <!-- https://translations.telegram.org/en/android/login/TwoStepVerification -->
+    <string lang="TwoStepVerification">Two-Step Verification</string>
+    <!-- https://translations.telegram.org/en/android/settings/SessionsTitle -->
+    <string lang="SessionsTitle">Active Sessions</string>
+    <!-- https://translations.telegram.org/en/android/settings/DeleteAccountIfAwayFor2 -->
+    <string lang="DeleteAccountIfAwayFor2">Delete my account if away for</string>
+    <!-- https://translations.telegram.org/en/android/settings/PrivacyPaymentsClear -->
+    <string lang="PrivacyPaymentsClear">Clear Payment and Shipping Info</string>
+    <!-- https://translations.telegram.org/en/android/settings/WebSessionsTitle -->
+    <string lang="WebSessionsTitle">Logged In with Telegram</string>
+    <!-- https://translations.telegram.org/en/android/settings/SyncContactsDelete -->
+    <string lang="SyncContactsDelete">Delete Synced Contacts</string>
+    <!-- https://translations.telegram.org/en/android/login/SyncContacts -->
+    <string lang="SyncContacts">Sync Contacts</string>
+    <!-- https://translations.telegram.org/en/android/settings/SuggestContacts -->
+    <string lang="SuggestContacts">Suggest Frequent Contacts</string>
+    <!-- https://translations.telegram.org/en/android/settings/MapPreviewProvider -->
+    <string lang="MapPreviewProvider">Map Preview Provider</string>
+    <!-- https://translations.telegram.org/en/android/settings/SecretWebPage -->
+    <string lang="SecretWebPage">Link Previews</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/Contacts -->
+    <string lang="Contacts">Contacts</string>
+    <!-- https://translations.telegram.org/en/android/settings/InviteFriends -->
+    <string lang="InviteFriends">Invite Friends</string>
+    <!-- https://translations.telegram.org/en/android/general/AddPeopleNearby -->
+    <string lang="AddPeopleNearby">Find People Nearby</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/AddContactTitle -->
+    <string lang="AddContactTitle">Add Contact</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ChannelEdit -->
+    <string lang="ChannelEdit">Edit</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/AreYouSureDeleteAndExit -->
+    <string lang="AreYouSureDeleteAndExit">Are you sure you want to delete and leave the group?</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/DeleteMega -->
+    <string lang="DeleteMega">Delete Group</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/DeleteAndExit -->
+    <string lang="DeleteAndExit">Delete and leave group</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/ChannelDelete -->
+    <string lang="ChannelDelete">Delete Channel</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/DeleteAndExitButton -->
+    <string lang="DeleteAndExitButton">Delete and Leave Group</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/EnterChannelName -->
+    <string lang="EnterChannelName">Channel name</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/DescriptionInfo -->
+    <string lang="DescriptionInfo">You can provide an optional description for your channel.</string>
+    <!-- https://translations.telegram.org/en/android/groups_and_channels/DescriptionPlaceholder -->
+    <string lang="DescriptionPlaceholder">Description</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/AddToContacts -->
+    <string lang="AddToContacts">Add to contacts</string>
+    <!-- https://translations.telegram.org/en/android/profile/BlockContact -->
+    <string lang="BlockContact">Block user</string>
+    <!-- https://translations.telegram.org/en/android/general/NewContact -->
+    <string lang="NewContact">New Contact</string>
+    <!-- https://translations.telegram.org/en/android/login/FirstName -->
+    <string lang="FirstName">First name (required)</string>
+    <!-- https://translations.telegram.org/en/android/login/LastName -->
+    <string lang="LastName">Last name (optional)</string>
+    <!-- https://translations.telegram.org/en/android/general/MobileHiddenExceptionInfo -->
+    <string lang="MobileHiddenExceptionInfo">Phone number will be visible once %1$s adds you as a contact.</string>
+    <!-- https://translations.telegram.org/en/android/general/SharePhoneNumberWith -->
+    <string lang="SharePhoneNumberWith">Share my phone number with %1$s</string>
+    <!-- https://translations.telegram.org/en/android/general/MobileHidden -->
+    <string lang="MobileHidden">Mobile hidden</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/Done -->
+    <string lang="Done">Done</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameInvalid -->
+    <string lang="UsernameInvalid">Sorry, this username is invalid.</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameInUse -->
+    <string lang="UsernameInUse">Sorry, this username is already taken.</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameInvalidShort -->
+    <string lang="UsernameInvalidShort">A username must have at least 5 characters.</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameInvalidLong -->
+    <string lang="UsernameInvalidLong">The username must not exceed 32 characters.</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameInvalidStartNumber -->
+    <string lang="UsernameInvalidStartNumber">Usernames can't start with a number.</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameChecking -->
+    <string lang="UsernameChecking">Checking username...</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameHelp -->
+    <string lang="UsernameHelp">
+You can choose a username on **Telegram**. If you do, people will be able to find you by this username and contact you without needing your phone number.
+
+You can use **a–z**, **0–9** and underscores. Minimum length is **5** characters.</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameHelpLink -->
+    <string lang="UsernameHelpLink">
+This link opens a chat with you:
+%1$s</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameAvailable -->
+    <string lang="UsernameAvailable">%1$s is available.</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernamePlaceholder -->
+    <string lang="UsernamePlaceholder">Your Username</string>
+    <!-- https://translations.telegram.org/en/android/settings/UsernameEmpty -->
+    <string lang="UsernameEmpty">None</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/Message -->
+    <string lang="Message">Message</string>
+    <!-- https://translations.telegram.org/en/android/unsorted/FilterAllChatsShort -->
+    <string lang="FilterAllChatsShort">All</string>
+    <!-- https://translations.telegram.org/en/android/general/Forward -->
+    <string lang="Forward">Forward</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/Copy -->
+    <string lang="Copy">Copy</string>
+    <!-- https://translations.telegram.org/en/android/general/Reply -->
+    <string lang="Reply">Reply</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/DeleteSingleMessagesTitle -->
+    <string lang="DeleteSingleMessagesTitle">Delete message</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/AreYouSureDeleteSingleMessage -->
+    <string lang="AreYouSureDeleteSingleMessage">Are you sure you want to delete this message?</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/ChatYourSelfTitle -->
+    <string lang="ChatYourSelfTitle">Your cloud storage</string>
+    <!-- https://translations.telegram.org/en/android/private_chats/NoMessages -->
+    <string lang="NoMessages">No messages here yet...</string>
+    <!-- https://translations.telegram.org/en/android/chat_list/SavedMessages -->
+    <string lang="SavedMessages">Saved Messages</string>
+    <!-- https://translations.telegram.org/en/android/unsorted/NoTopicsDescription -->
+    <string lang="NoTopicsDescription">You can start your first topic or tap on the %s icon to switch to the messages list.</string>
+    <!-- https://translations.telegram.org/en/android/unsorted/NoTopics -->
+    <string lang="NoTopics">No topics here yet</string>
+    <!-- https://translations.telegram.org/en/android/unsorted/TapToCreateTopicHint -->
+    <string lang="TapToCreateTopicHint">Tap to create a topic</string>
+    <!-- https://translations.telegram.org/en/android/unsorted/TopicViewAsTopics -->
+    <string lang="TopicViewAsTopics">View as topics</string>
+    <!-- https://translations.telegram.org/en/android/unsorted/TopicViewAsMessages -->
+    <string lang="TopicViewAsMessages">View as messages</string>
+    <!-- https://translations.telegram.org/en/android/unsorted/CreateTopic -->
+    <string lang="CreateTopic">Create topic</string>
+</resources>
