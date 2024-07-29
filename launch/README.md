@@ -88,4 +88,6 @@ ChatPage   聊天内容页面
 
 ChatTileFactory 首页聊天item
 
+ChatBackgroundFactory聊天背景颜色
+
 

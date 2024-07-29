@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:rxdart/rxdart.dart';
 import 'package:td_client/td_client.dart';
 import 'package:tdlib/td_api.dart' as td;
+import 'package:tdlib/td_api.dart';
 import 'package:tdlib/td_client.dart' as tdc;
 
 
@@ -19,6 +20,10 @@ class TdClient {
     _client.updates.listen((td.TdObject? event) {
       if (event != null) {
         _eventController.add(event);
+        print("--通知---"+event.toString());
+        if(event is UpdateConnectionState){
+          print("--连接状态通知---"+event.toString());
+        }
       }
     });
     await _client.initialize();

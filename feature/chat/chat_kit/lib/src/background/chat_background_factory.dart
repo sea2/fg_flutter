@@ -40,7 +40,7 @@ class _Background extends StatelessWidget {
         pattern: (PatternBackground value) {
           return DecoratedBox(
             decoration: BoxDecoration(
-              color: Colors.lightGreen,
+              color: Colors.blueGrey,
               image: DecorationImage(
                 colorFilter:
                     const ColorFilter.mode(Colors.black26, BlendMode.srcIn),

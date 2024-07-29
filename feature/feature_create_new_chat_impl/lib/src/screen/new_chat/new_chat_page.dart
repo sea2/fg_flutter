@@ -16,13 +16,21 @@ class _NewChatPageState extends State<NewChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const _Body(),
+      body:  _Body(),
     );
   }
 }
 
-class _Body extends StatelessWidget {
-  const _Body();
+class _Body extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+  return _BodyState();
+  }
+
+}
+class _BodyState extends State<_Body>{
+
+  int userId=0;
 
   @override
   Widget build(BuildContext context) {
@@ -31,10 +39,17 @@ class _Body extends StatelessWidget {
     final NewChatViewModel viewModel =
         NewChatScreenScope.getNewChatViewModel(context);
 
-
-    GetContacts().then((value) =>
-      print("---------------------${value.totalCount}")
+    GetContacts().then((value) {
+    value.userIds.forEach((element) {
+      setState((){
+        userId=element;
+      });
+    });
+    }
     );
+
+
+
 
     return Column(
       children: <Widget>[
@@ -60,6 +75,10 @@ class _Body extends StatelessWidget {
         //   leading: const Icon(Icons.circle),
         //   title: stringsProvider.newChannel,
         // ),
+        InkWell(child: Text("${userId}", style: TextStyle(color: Colors.red),),
+          onTap: () {
+            viewModel.onChatTap(userId);
+          },)
       ],
     );
   }

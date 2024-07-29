@@ -26,7 +26,7 @@ class UpdateInstalledStickerSets extends Update {
     return UpdateInstalledStickerSets(
       stickerType: StickerType.fromJson(json['sticker_type'])!,
       stickerSetIds: List<int>.from(
-          (json['sticker_set_ids'] ?? []).map((item) => item).toList()),
+          (json['sticker_set_ids'] ?? []).map((item) => int.parse(item)).toList()),
     );
   }
 
