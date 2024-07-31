@@ -7,6 +7,7 @@ import 'package:app/src/di/module/feature_module.dart';
 import 'package:app/src/di/module/td_module.dart';
 import 'package:app/src/di/module/theme_module.dart';
 import 'package:app/src/di/scope/application_scope.dart';
+import 'package:app/src/navigation/common_screen_router_impl.dart';
 import 'package:app_controller/app_controller.dart';
 import 'package:jugger/jugger.dart' as j;
 
@@ -26,4 +27,6 @@ abstract class IAppComponent {
   IAppController get appController;
 
   AppInitializer get appInitializer;
+
+  CommonScreenRouterImpl get CommonScreenRouter;
 }

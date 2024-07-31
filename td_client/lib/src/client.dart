@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:event_bus/event_bus.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:td_client/td_client.dart';
 import 'package:tdlib/td_api.dart' as td;
@@ -21,8 +22,8 @@ class TdClient {
       if (event != null) {
         _eventController.add(event);
         print("--通知---"+event.toString());
-        if(event is UpdateConnectionState){
-          print("--连接状态通知---"+event.toString());
+        if(event is UpdateNewMessage){
+          eventBus.fire(MyEvent('Hello EventBus!'));
         }
       }
     });
@@ -37,6 +38,14 @@ class TdClient {
 
   T execute<T extends td.TdObject>(td.TdFunction object) =>
       _client.execute(object);
+}
+
+
+
+EventBus eventBus = EventBus();
+class MyEvent {
+  String message;
+  MyEvent(this.message);
 }
 
 

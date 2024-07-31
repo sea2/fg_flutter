@@ -21,11 +21,17 @@ class MainPage extends StatefulWidget {
 }
 
 class MainPageState extends State<MainPage> with TickerProviderStateMixin {
+
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+
+
   @override
   void initState() {
     MainScreenScope.getMainScreenWidgetModel(context).init(this);
     super.initState();
   }
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -33,8 +39,14 @@ class MainPageState extends State<MainPage> with TickerProviderStateMixin {
         MainScreenScope.getMainScreenWidgetModel(context);
 
     return WillPopScope(
-      onWillPop: widgetModel.onWillPop,
-      child: const Scaffold(
+      onWillPop: () async  {
+        if(checkDrawerStatus()){
+          return true;
+        }
+        return await widgetModel.onWillPop();
+      },
+      child: Scaffold(
+        key: _scaffoldKey,
         appBar: _AppBar(),
         drawer: _MainDrawer(),
         body: _Body(),
@@ -42,6 +54,16 @@ class MainPageState extends State<MainPage> with TickerProviderStateMixin {
       ),
     );
   }
+  bool checkDrawerStatus() {
+    final ScaffoldState? scaffoldState = _scaffoldKey.currentState;
+    if (scaffoldState!.hasDrawer && scaffoldState!.isDrawerOpen) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+
 }
 
 class _FloatingActionButton extends StatelessWidget {

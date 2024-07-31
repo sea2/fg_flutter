@@ -2,6 +2,7 @@ import 'package:core_arch/core_arch.dart';
 import 'package:coreui/coreui.dart' as tg;
 import 'package:feature_chats_list_api/feature_chats_list_api.dart';
 import 'package:feature_global_search_api/feature_global_search_api.dart';
+import 'package:feature_main_screen_impl/src/screen/main/AndroidBackDesktop.dart';
 import 'package:feature_main_screen_impl/src/screen/main/main_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:jugger/jugger.dart' as j;
@@ -98,7 +99,9 @@ class MainScreenWidgetModel with SubscriptionMixin {
       _switchToChatState();
       return false;
     }
-    return true;
+    AndroidBackDesktop.backToDesktop();
+    print("------返回");
+    return false;  //一定要return false
   }
 
   void onSearchCloseTap() {
