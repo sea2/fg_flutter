@@ -1,18 +1,23 @@
 import 'dart:math' as math;
 
+import 'package:feature_chat_impl/src/tile/model/base_conversation_message_tile_model.dart';
+import 'package:feature_chat_impl/src/tile/model/base_message_tile_model.dart';
 import 'package:flutter/material.dart';
 import 'package:tile/tile.dart';
 
 import 'chat_screen.dart';
 import 'message_factory.dart';
 import 'messages_bundle.dart';
+import 'package:td_client/td_client.dart' as tdClient;
+import 'package:td_api/td_api.dart' as td;
 
 class MessagesList extends StatefulWidget {
-  const MessagesList({
+   MessagesList({
     super.key,
     required this.messagesBundle,
+    this.chatId=0,
   });
-
+  int chatId;
   final IMessagesBundle messagesBundle;
 
   @override
@@ -36,6 +41,18 @@ class _MessagesListState extends State<MessagesList> {
         _scrolledToOldest = false;
       }
     });
+    List<int> messageIds=[];
+    this.widget.messagesBundle.getModels.forEach((element) {
+      if (element is BaseConversationMessageTileModel) {
+        messageIds.add(element.id);
+        print("消息id &${element.id}");
+      }else  if (element is BaseMessageTileModel) {
+        messageIds.add(element.id);
+        print("消息id ${element.id}");
+      }
+    });
+    tdClient.ClientSingleton.getClient().send<td.Ok>(td.ViewMessages(chatId:widget.chatId,messageThreadId:0,forceRead: true,messageIds: messageIds),).then((value) {
+    });
     super.initState();
   }
 
@@ -49,7 +66,6 @@ class _MessagesListState extends State<MessagesList> {
   Widget build(BuildContext context) {
     final MessageFactory messageFactory =
         ChatScreenScope.getMessageFactory(context);
-
     return Scrollbar(
       child: ListView.custom(
         controller: _scrollController,

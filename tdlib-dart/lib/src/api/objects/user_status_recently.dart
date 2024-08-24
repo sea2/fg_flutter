@@ -3,6 +3,7 @@ import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
 /// The user was online recently
+/// 用户最近在线
 @immutable
 class UserStatusRecently extends UserStatus {
   const UserStatusRecently();

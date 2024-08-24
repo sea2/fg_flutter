@@ -7,7 +7,7 @@ import 'package:feature_chat_impl/feature_chat_impl.dart';
 import 'package:feature_chat_impl/src/di/chat_qualifiers.dart';
 import 'package:jugger/jugger.dart' as j;
 import 'package:localization_api/localization_api.dart';
-
+import 'package:td_client/td_client.dart';
 import 'message_popup_menu.dart';
 
 // TODO dispose in scope
@@ -32,6 +32,9 @@ class MessagePopupMenuActionHandler with SubscriptionMixin {
     switch (item) {
       case ItemAction.delete:
         _onDelete(messageId);
+        break;
+      case ItemAction.reply:
+        _reply(messageId);
         break;
       default:
         _router.toDialog(body: const d.Body.text(text: 'not implemented'));
@@ -59,5 +62,8 @@ class MessagePopupMenuActionHandler with SubscriptionMixin {
         ),
       ],
     );
+  }
+  void _reply(int messageId) {
+    eventBus.fire(ReplyMessageEvent(messageId));
   }
 }

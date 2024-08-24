@@ -35,6 +35,10 @@ class MessagePopupMenuBuilder {
           action: ItemAction.forward,
           text: _stringsProvider.forward,
         ),
+        MessagePopupMenuItem(
+          action: ItemAction.reply,
+          text: _stringsProvider.reply,
+        ),
       if (message.canBeSaved)
         MessagePopupMenuItem(
           action: ItemAction.copy,

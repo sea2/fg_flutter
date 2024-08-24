@@ -2,7 +2,7 @@ import 'package:meta/meta.dart';
 import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
-/// The user is offline
+/// The user is offline  用户处于脱机状态
 @immutable
 class UserStatusOffline extends UserStatus {
   const UserStatusOffline({

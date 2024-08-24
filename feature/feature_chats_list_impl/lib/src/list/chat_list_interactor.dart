@@ -40,6 +40,7 @@ class ChatListInteractor {
       onResult: (List<td.Chat> newChats) async {
         _done = true;
         for (final td.Chat chat in newChats) {
+          print("聊天id----${chat.id}");
           await _chatListUpdateHandler.handleNewChat(chat: chat);
         }
         _dispatchChats();

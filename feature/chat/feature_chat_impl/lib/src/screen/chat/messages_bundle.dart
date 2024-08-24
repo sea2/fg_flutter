@@ -4,6 +4,7 @@ import 'package:tile/tile.dart';
 
 abstract class IMessagesBundle {
   int get length;
+  List<ITileModel> get getModels;
 
   ITileModel operator [](int i);
 
@@ -37,6 +38,10 @@ class _MessagesBundle implements IMessagesBundle {
   @override
   int get length => models.length;
 
+
   @override
   int? indexOf(int messageId) => indexesInfo[messageId];
+
+  @override
+  List<ITileModel> get getModels => models;
 }

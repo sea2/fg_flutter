@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:chat_list_theme/chat_list_theme.dart';
 import 'package:chat_list_ui_kit/chat_list_ui_kit.dart';
 import 'package:core_presentation/core_presentation.dart';
@@ -7,6 +9,9 @@ import 'package:provider/provider.dart';
 import 'package:tile/tile.dart';
 
 import 'chat_tile_model.dart';
+
+import 'package:td_client/td_client.dart' as tdClient;
+import 'package:td_api/td_api.dart' as td;
 
 abstract class IChatTileListener {
   void onChatTap(int id);
@@ -103,6 +108,9 @@ class _Cell extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+
+    // print(model.avatar.toString());
     return SizedBox(
       height: ChatHeightProvider.getValue(context),
       child: Row(

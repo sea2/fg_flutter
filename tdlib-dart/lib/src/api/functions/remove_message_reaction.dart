@@ -3,6 +3,7 @@ import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
 /// Removes a reaction from a message. A chosen reaction can always be removed
+/// 从消息中删除反应。选定的反应总是可以消除的
 /// Returns [Ok]
 @immutable
 class RemoveMessageReaction extends TdFunction {

@@ -31,6 +31,11 @@ dependencies:
   td_api:
     path: ../../../td/td_api
   tuple: 2.0.0
+  td_client:
+    path: ../../../td_client
+  image_picker: 1.0.8
+
+
 
 dev_dependencies:
   build_runner: 2.3.3

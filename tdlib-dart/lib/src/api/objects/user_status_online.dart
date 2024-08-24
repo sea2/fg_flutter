@@ -3,6 +3,7 @@ import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
 /// The user is online
+/// 用户在线
 @immutable
 class UserStatusOnline extends UserStatus {
   const UserStatusOnline({

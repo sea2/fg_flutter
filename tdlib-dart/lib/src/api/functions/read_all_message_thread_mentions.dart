@@ -3,6 +3,7 @@ import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
 /// Marks all mentions in a forum topic as read
+/// 将论坛主题中的所有提及标记为已读
 /// Returns [Ok]
 @immutable
 class ReadAllMessageThreadMentions extends TdFunction {

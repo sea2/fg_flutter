@@ -3,6 +3,7 @@ import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
 /// Marks all mentions in a chat as read
+/// 将聊天中的所有提及标记为已读
 /// Returns [Ok]
 @immutable
 class ReadAllChatMentions extends TdFunction {

@@ -13,3 +13,4 @@ export 'src/widget/sticker.dart';
 export 'src/widget/text_background.dart';
 export 'src/widget/tg/block_interaction.dart';
 export 'src/widget/tg/tg_widget.dart';
+export 'src/avatar/avatar_widget_factory.dart';

@@ -4,6 +4,8 @@ import '../tdapi.dart';
 
 /// Returns the period of inactivity after which the account of the current
 /// user will automatically be deleted
+/// ///返回当前帐户处于非活动状态后的时间段
+// ///用户将被自动删除
 /// Returns [AccountTtl]
 @immutable
 class GetAccountTtl extends TdFunction {

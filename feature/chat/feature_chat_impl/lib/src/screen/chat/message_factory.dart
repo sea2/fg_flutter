@@ -25,11 +25,13 @@ class MessageFactory implements IInteractableMessageFactory {
   Widget create({
     required BuildContext context,
     required ITileModel model,
+    int  chatId=0
   }) {
     if (model is BaseConversationMessageTileModel) {
       return MessagePopupMenuArea(
         key: ValueKey<int>(model.id),
         messageId: model.id,
+        chatId: chatId,
         listener: _popupMenuListener,
         child: _Leading(
           leading: _messageComponentResolver.resolveAvatar(context, model),
@@ -41,6 +43,7 @@ class MessageFactory implements IInteractableMessageFactory {
     if (model is BaseMessageTileModel) {
       return MessagePopupMenuArea(
         key: ValueKey<int>(model.id),
+        chatId: chatId,
         messageId: model.id,
         listener: _popupMenuListener,
         child: _Leading(

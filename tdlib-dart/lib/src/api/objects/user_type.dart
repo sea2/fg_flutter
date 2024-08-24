@@ -4,6 +4,8 @@ import '../tdapi.dart';
 
 /// Represents the type of a user. The following types are possible: regular
 /// users, deleted users and bots
+/// ///表示用户的类型。以下类型是可能的：常规
+// ///用户、已删除用户和机器人
 @immutable
 abstract class UserType extends TdObject {
   const UserType();

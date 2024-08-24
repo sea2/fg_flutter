@@ -33,6 +33,8 @@ class ChatMessagesViewModel extends BaseViewModel {
   final IChatManager _chatManager;
   final IChatScreenRouter _router;
 
+  int get getChatId => _args.chatId;
+
   Stream<BodyState> get bodyStateStream =>
       _messagesInteractor.messagesStream.map<BodyState>(
         (List<ITileModel> models) {

@@ -47,6 +47,12 @@ class MyEvent {
   String message;
   MyEvent(this.message);
 }
+class AddContactRefresh {
+}
+class ReplyMessageEvent {
+  int messageId;
+  ReplyMessageEvent(this.messageId);
+}
 
 
 

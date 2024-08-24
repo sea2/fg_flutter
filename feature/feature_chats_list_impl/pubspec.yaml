@@ -52,6 +52,8 @@ dependencies:
     path: ../../td/td_api
   tile:
     path: ../../tile
+  td_client:
+    path: ../../td_client
 
 dev_dependencies:
   build_runner: 2.3.3

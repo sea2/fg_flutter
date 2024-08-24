@@ -6,17 +6,29 @@ class PopupMenuArea<T> extends StatefulWidget {
     required this.child,
     required this.onSelected,
     required this.onTap,
+     this.messageId=0,
+     this.chatId=0,
   });
 
   final Widget child;
   final PopupMenuItemSelected<T> onSelected;
   final void Function(void Function(List<PopupMenuEntry<T>> items)) onTap;
-
+  final int messageId;
+  final int chatId;
   @override
   State<PopupMenuArea<T>> createState() => _PopupMenuAreaState<T>();
 }
 
 class _PopupMenuAreaState<T> extends State<PopupMenuArea<T>> {
+
+  @override
+  void initState() {
+
+    //获取消息数据，处理点击事件
+
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(

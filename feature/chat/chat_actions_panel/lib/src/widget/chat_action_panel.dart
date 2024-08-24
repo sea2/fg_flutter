@@ -17,11 +17,13 @@ class ChatActionPanel extends StatelessWidget {
       child: const Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          Divider(height: 1),
-          LimitedBox(
-            maxHeight: kPanelHeight,
-            child: _Content(),
-          ),
+          Divider(height: 0.5),
+          // LimitedBox(
+          //   maxHeight: kPanelHeight,
+          //   child:,
+          // ),
+
+          _Content()
           // textButton()
           // buildRow()
         ],
@@ -39,6 +41,7 @@ class _Content extends StatelessWidget {
       stream: ChatActionPanelScope.getChatActionsPanelViewModel(context)
           .actionsPanelState,
       builder: (BuildContext context, PanelState state) {
+        print("状态------------------${state.toString()}");
         return state.map(
           join: (JoinState value) {
             return Join(state: value);

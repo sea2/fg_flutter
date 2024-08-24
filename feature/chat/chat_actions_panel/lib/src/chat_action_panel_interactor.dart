@@ -45,6 +45,7 @@ class ChatActionPanelInteractor {
     _subscription?.cancel();
   }
 
+  //获取消息数据
   void _beginListen() {
     final Stream<PanelState> stateStream =
         Stream<td.Chat>.fromFuture(_chatRepository.getChat(_chatId))
@@ -85,13 +86,14 @@ class ChatActionPanelInteractor {
     required td.ChatNotificationSettings notificationSettings,
     required td.ChatPermissions permissions,
   }) {
+
     return Stream<PanelState>.value(
       status.map(
         creator: (td.ChatMemberStatusCreator value) {
-          return const PanelState.empty();
+          return const PanelState.writer();
         },
         administrator: (td.ChatMemberStatusAdministrator value) {
-          return const PanelState.empty();
+          return const PanelState.writer();
         },
         member: (td.ChatMemberStatusMember value) {
           return PanelState.channelSubscriber(

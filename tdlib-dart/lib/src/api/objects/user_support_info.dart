@@ -3,6 +3,7 @@ import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
 /// Contains custom information about the user
+/// 包含有关用户的自定义信息
 @immutable
 class UserSupportInfo extends TdObject {
   const UserSupportInfo({

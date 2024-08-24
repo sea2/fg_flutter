@@ -3,6 +3,7 @@ import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
 /// Describes the last time the user was online
+/// 描述用户上次联机的时间
 @immutable
 abstract class UserStatus extends TdObject {
   const UserStatus();

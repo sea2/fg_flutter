@@ -1,3 +1,3 @@
-apiId:94575
-apiHash:a3406de8d171bb422bb6ddf3bbd800e2
+apiId:26447770
+apiHash:8ef53f7536d55207be3f2c21086077c7
 useTestDc:false

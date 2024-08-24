@@ -38,6 +38,9 @@ class ChatActionsPanelViewModel extends BaseViewModel {
   Stream<PanelState> get actionsPanelState =>
       _actionPanelInteractor.panelStateStream;
 
+  int get getChatId =>
+      _chatId;
+
   @override
   void dispose() {
     _actionPanelInteractor.dispose();
@@ -55,15 +58,31 @@ class ChatActionsPanelViewModel extends BaseViewModel {
     _chatManager.join(_chatId);
   }
 
-  void onSendMessage({required String text}) {
-    _sendMessage(text);
+  void onSendMessage({required String text,required int replyToMessageId}) {
+    _sendMessage(text,replyToMessageId);
   }
 
   // endregion action
 
-  void _sendMessage(String text) {
+  void _sendMessage(String text,int replyToMessageId) {
     final CancelableOperation<void> operation = _messageSender
-        .sendText(chatId: _chatId, text: text)
+        .sendText(chatId: _chatId, text: text,replyToMessageId:replyToMessageId )
+        .toCancelableOperation()
+        .onError((Object error) {
+      _dialogRouter.toDialog(
+        body: d.Body.text(
+          text: _errorTransformer.transformToString(error),
+        ),
+        actions: <d.Action>[
+          d.Action(text: _stringsProvider.oK),
+        ],
+      );
+    });
+    attach(operation);
+  }
+  void sendImage(String path,int replyToMessageId) {
+    final CancelableOperation<void> operation = _messageSender
+        .sendImage(chatId: _chatId, path: path,replyToMessageId:replyToMessageId )
         .toCancelableOperation()
         .onError((Object error) {
       _dialogRouter.toDialog(

@@ -79,6 +79,8 @@ dependencies:
     path: ../../sticker/sticker_navigation_api
   td_api:
     path: ../../../td/td_api
+  td_client:
+    path: ../../../td_client
   td_rich_text_parser:
     path: ../../../rich_text/td_rich_text_parser
   tg_theme:

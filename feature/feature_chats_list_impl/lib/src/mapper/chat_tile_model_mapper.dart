@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:core_presentation/core_presentation.dart';
 import 'package:core_tdlib_api/core_tdlib_api.dart';
 import 'package:core_utils/core_utils.dart';
@@ -36,7 +38,11 @@ class ChatTileModelMapper {
 
     final td.ChatPosition? position = chat.getPositionByChatList(chatList);
     assert(position != null);
-
+    print("首页数据打印---${jsonEncode(chat.toJson())}");
+    print("首页数据打印---${jsonEncode(chat.unreadCount)}");
+    print("首页数据打印---${jsonEncode(chat.isMarkedAsUnread)}");
+    print("首页数据打印---${jsonEncode(chat.unreadMentionCount)}");
+    print("首页数据打印---${jsonEncode(chat.unreadReactionCount)}");
     final bool isSecret =
         chat.type.getConstructor() == td.ChatTypeSecret.constructor;
     return ChatTileModel(

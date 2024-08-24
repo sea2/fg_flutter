@@ -130,12 +130,12 @@ class _AppBar extends StatelessWidget implements PreferredSizeWidget {
                 Scaffold.of(context).openDrawer();
               },
             ),
-            actions: <Widget>[
-              IconButton(
-                icon: const Icon(Icons.search),
-                onPressed: widgetModel.onSearchTap,
-              ),
-            ],
+            // actions: <Widget>[
+            //   IconButton(
+            //     icon: const Icon(Icons.search),
+            //     onPressed: widgetModel.onSearchTap,
+            //   ),
+            // ],
           );
         }
       },
@@ -322,74 +322,74 @@ class _MainDrawer extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: <Widget>[
           const _Header(),
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pop();
-              viewModel.onMenuItemTap(m.MenuItem.dev);
-            },
-            leading: const Icon(Icons.developer_board),
-            title: const Text('Dev'),
-          ),
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            leading: const Icon(Icons.people),
-            title: const Text('New Group'),
-          ),
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pop();
-              viewModel.onMenuItemTap(m.MenuItem.contacts);
-            },
-            leading: const Icon(Icons.person),
-            title: Text(stringsProvider.contacts),
-          ),
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            leading: const Icon(Icons.call),
-            title: const Text('Calls'),
-          ),
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            leading: const Icon(Icons.emoji_people),
-            title: const Text('People Nearby'),
-          ),
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pop();
-              viewModel.onMenuItemTap(m.MenuItem.savedMessages);
-            },
-            leading: const Icon(Icons.bookmark_border),
-            title: Text(stringsProvider.savedMessages),
-          ),
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pop();
-              viewModel.onMenuItemTap(m.MenuItem.settings);
-            },
-            leading: const Icon(Icons.settings),
-            title: const Text('Settings'),
-          ),
-          const Divider(),
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            leading: const Icon(Icons.person_add_outlined),
-            title: const Text('Invite Friends'),
-          ),
-          ListTile(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            leading: const Icon(Icons.help_outline),
-            title: Text(stringsProvider.telegramFeatures),
-          ),
+          // ListTile(
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //     viewModel.onMenuItemTap(m.MenuItem.dev);
+          //   },
+          //   leading: const Icon(Icons.developer_board),
+          //   title: const Text('Dev'),
+          // ),
+          // ListTile(
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //   },
+          //   leading: const Icon(Icons.people),
+          //   title: const Text('New Group'),
+          // ),
+          // ListTile(
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //     viewModel.onMenuItemTap(m.MenuItem.contacts);
+          //   },
+          //   leading: const Icon(Icons.person),
+          //   title: Text(stringsProvider.contacts),
+          // ),
+          // ListTile(
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //   },
+          //   leading: const Icon(Icons.call),
+          //   title: const Text('Calls'),
+          // ),
+          // ListTile(
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //   },
+          //   leading: const Icon(Icons.emoji_people),
+          //   title: const Text('People Nearby'),
+          // ),
+          // ListTile(
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //     viewModel.onMenuItemTap(m.MenuItem.savedMessages);
+          //   },
+          //   leading: const Icon(Icons.bookmark_border),
+          //   title: Text(stringsProvider.savedMessages),
+          // ),
+          // ListTile(
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //     viewModel.onMenuItemTap(m.MenuItem.settings);
+          //   },
+          //   leading: const Icon(Icons.settings),
+          //   title: const Text('Settings'),
+          // ),
+          // const Divider(),
+          // ListTile(
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //   },
+          //   leading: const Icon(Icons.person_add_outlined),
+          //   title: const Text('Invite Friends'),
+          // ),
+          // ListTile(
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //   },
+          //   leading: const Icon(Icons.help_outline),
+          //   title: Text(stringsProvider.telegramFeatures),
+          // ),
         ],
       ),
     );
@@ -464,15 +464,15 @@ class _HeaderData extends StatelessWidget {
               ),
             ],
           ),
-          IconButton(
-            onPressed: viewModel.onToggleThemeTap,
-            icon: Icon(
-              data.isDarkTheme
-                  ? Icons.toggle_off_outlined
-                  : Icons.toggle_on_outlined,
-              color: textColor,
-            ),
-          )
+          // IconButton(
+          //   onPressed: viewModel.onToggleThemeTap,
+          //   icon: Icon(
+          //     data.isDarkTheme
+          //         ? Icons.toggle_off_outlined
+          //         : Icons.toggle_on_outlined,
+          //     color: textColor,
+          //   ),
+          // )
         ],
       ),
       decoration: BoxDecoration(

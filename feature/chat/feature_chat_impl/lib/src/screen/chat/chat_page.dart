@@ -46,7 +46,6 @@ class _Body extends StatelessWidget {
   Widget build(BuildContext context) {
     final ChatMessagesViewModel viewModel =
         ChatScreenScope.getChatMessagesViewModel(context);
-
     return StreamListener<BodyState>(
       stream: viewModel.bodyStateStream,
       builder: (BuildContext context, BodyState data) {
@@ -55,7 +54,7 @@ class _Body extends StatelessWidget {
           child: data.when(
             loading: () => const Center(child: CircularProgressIndicator()),
             data: (IMessagesBundle messagesBundle) {
-              return MessagesList(messagesBundle: messagesBundle);
+              return MessagesList(messagesBundle: messagesBundle,chatId:  viewModel.getChatId,);
             },
             empty: () {
               return ChatScreenScope.getEmptyChatWidgetFactory(context)

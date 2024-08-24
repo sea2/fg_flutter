@@ -3,6 +3,7 @@ import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
 /// Marks all reactions in a forum topic as read
+/// 将论坛主题中的所有反应标记为已读
 /// Returns [Ok]
 @immutable
 class ReadAllMessageThreadReactions extends TdFunction {

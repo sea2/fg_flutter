@@ -8,9 +8,11 @@
 .metadata
 *.g.dart
 
+
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
 build/
 pubspec.lock
+launch/myreadme.md
